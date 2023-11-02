@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopX</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./dist/main.css" />
+    <!-- bootstrap icons cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="bg-light">
+    <!--====================
+       navbar section start 
+      ==================-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+      <div class="container-fluid">
+        <div class="logo navbar-nav">
+          <a class="navbar-brand text-white fs-4" href="#"
+            ><b>Shop-</b><span class="text-warning navbar-brand fs-4"><b>X</b></span></a
+          >
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 me-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-secondary text-white" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--=====================
+       navbar section end 
+      ==================-->
+
+    <!--============================
+       main carousel section start 
+      ========================-->
+    <header>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/download3.jpg" class="d-block w-100" alt="img3." />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/image_2.jpeg" class="d-block w-100" alt="img2" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/download1.jpeg" class="d-block w-100 h-100" alt="img1" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!--============================
+       main carousel section end 
+      ========================-->
+
+    <!--============================
+       Product items section start 
+      ========================-->
+    <section>
+      <div class="container-fluid">
+        <div class="row mt-3">
+          <div class="col-lg-5">
+            <img src="images/card_img.webp" class="w-100 mb-3" alt="" />
+          </div>
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-3">
+                  <img src="images/shoes_4.jpeg" class="card-img-top rounded" alt="shoes" />
+                  <div class="card-body">
+                    <p class="card-text">Products sneakers & keds</p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-primary">$154.00</span>
+                      <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3">
+                  <img src="images/pant_2.jpeg" class="card-img-top rounded" alt="shoes" />
+                  <div class="card-body">
+                    <p class="card-text">Pant's for male or female</p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-primary">$200.00</span>
+                      <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3">
+                  <img src="images/watch_3.jpeg" class="card-img-top rounded" alt="shoes" />
+                  <div class="card-body">
+                    <p class="card-text">Watch for male or female</p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-primary">$140.00</span>
+                      <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3">
+                  <img src="images/t_shirt.jpeg" class="card-img-top rounded" alt="shoes" />
+                  <div class="card-body">
+                    <p class="card-text">T-Shirts of Man</p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-primary">$25.00</span>
+                      <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3">
+                  <img src="images/half_pant.jpeg" class="card-img-top rounded" alt="shoes" />
+                  <div class="card-body">
+                    <p class="card-text">Half Pant</p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-primary">$15.50</span>
+                      <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3">
+                  <img src="images/cap_1.jpeg" class="card-img-top rounded" alt="shoes" />
+                  <div class="card-body">
+                    <p class="card-text">Cap of Man's</p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-primary">$18.00</span>
+                      <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================
+       Product items section end 
+      ========================-->
+
+    <!--===============================
+       Trending product section start 
+      ============================-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="trending_product text-center my-5">
+            <h3>Trending Product's</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card shadow py-2 mb-3">
+              <div class="d-flex justify-content-between mt-1 mb-1">
+                <span class="bg-danger px-3 rounded text-white">Sale</span>
+                <span class="text-danger px-2"><i class="bi bi-code"></i>Compare</span>
+              </div>
+              <img src="images/headphone_edit.jpg" class="card-img-top rounded" alt="..." />
+              <div class="card-body">
+                <span class="card-text text-secondary">Headphone</span>
+                <p class="h6">Wirless Blutooth Headphone</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="text-primary px-3">$190.00</span>
+                <span class="text-warning px-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </span>
+              </div>
+              <div class="my-2">
+                <button class="btn btn-danger w-100"><i class="bi bi-cart px-2"></i>Add to Cart</button>
+              </div>
+              <div class="my-0">
+                <a href="#" class="btn btn-outline-secondary w-100"
+                  ><i class="bi bi-eye px-2"></i>Quict View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow py-2 mb-3">
+              <div class="d-flex justify-content-between mt-1 mb-1">
+                <span class="bg-danger px-3 rounded text-white">Sale</span>
+                <span class="text-danger px-2"><i class="bi bi-code"></i>Compare</span>
+              </div>
+              <img src="images/freez_edit.jpg" class="card-img-top rounded" alt="..." />
+              <div class="card-body">
+                <span class="card-text text-secondary">Refreezaretor</span>
+                <p class="h6">100% Copper Refreezaretor</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="text-primary px-3">$190.00</span>
+                <span class="text-warning px-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </span>
+              </div>
+              <div class="my-2">
+                <button class="btn btn-danger w-100"><i class="bi bi-cart px-2"></i>Add to Cart</button>
+              </div>
+              <div class="my-0">
+                <a href="#" class="btn btn-outline-secondary w-100"
+                  ><i class="bi bi-eye px-2"></i>Quict View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow py-2 mb-3">
+              <div class="d-flex justify-content-between mt-1 mb-1">
+                <span class="bg-danger px-3 rounded text-white">Sale</span>
+                <span class="text-danger px-2"><i class="bi bi-code"></i>Compare</span>
+              </div>
+              <img src="images/tv_edit.jpg" class="card-img-top rounded" alt="..." />
+              <div class="card-body">
+                <span class="card-text text-secondary">LG TV</span>
+                <p class="h6">Smart Television</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="text-primary px-3">$190.00</span>
+                <span class="text-warning px-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </span>
+              </div>
+              <div class="my-2">
+                <button class="btn btn-danger w-100"><i class="bi bi-cart px-2"></i>Add to Cart</button>
+              </div>
+              <div class="my-0">
+                <a href="#" class="btn btn-outline-secondary w-100"
+                  ><i class="bi bi-eye px-2"></i>Quict View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow py-2 mb-3">
+              <div class="d-flex justify-content-between mt-1 mb-1">
+                <span class="bg-danger px-3 rounded text-white">Sale</span>
+                <span class="text-danger px-2"><i class="bi bi-code"></i>Compare</span>
+              </div>
+              <img src="images/mp3_round_3edit.jpg" class="card-img-top rounded" alt="..." />
+              <div class="card-body">
+                <span class="card-text text-secondary">Headphone</span>
+                <p class="h6">Wirless Blutooth Headphone</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="text-primary px-3">$190.00</span>
+                <span class="text-warning px-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </span>
+              </div>
+              <div class="my-2">
+                <button class="btn btn-danger w-100"><i class="bi bi-cart px-2"></i>Add to Cart</button>
+              </div>
+              <div class="my-0">
+                <a href="#" class="btn btn-outline-secondary w-100"
+                  ><i class="bi bi-eye px-2"></i>Quict View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow py-2 mt-4 mb-3">
+              <div class="d-flex justify-content-between mt-1 mb-1">
+                <span class="bg-danger px-3 rounded text-white">Sale</span>
+                <span class="text-danger px-2"><i class="bi bi-code"></i>Compare</span>
+              </div>
+              <img src="images/watch_2_edit.jpg" class="card-img-top rounded" alt="..." />
+              <div class="card-body">
+                <span class="card-text text-secondary">Headphone</span>
+                <p class="h6">Wirless Blutooth Headphone</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="text-primary px-3">$190.00</span>
+                <span class="text-warning px-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </span>
+              </div>
+              <div class="my-2">
+                <button class="btn btn-danger w-100"><i class="bi bi-cart px-2"></i>Add to Cart</button>
+              </div>
+              <div class="my-0">
+                <a href="#" class="btn btn-outline-secondary w-100"
+                  ><i class="bi bi-eye px-2"></i>Quict View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow py-2 mt-4 mb-3">
+              <div class="d-flex justify-content-between mt-1 mb-1">
+                <span class="bg-danger px-3 rounded text-white">Sale</span>
+                <span class="text-danger px-2"><i class="bi bi-code"></i>Compare</span>
+              </div>
+              <img src="images/smart_phone_edit.jpg" class="card-img-top rounded" alt="..." />
+              <div class="card-body">
+                <span class="card-text text-secondary">Refreezaretor</span>
+                <p class="h6">100% Copper Refreezaretor</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="text-primary px-3">$190.00</span>
+                <span class="text-warning px-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </span>
+              </div>
+              <div class="my-2">
+                <button class="btn btn-danger w-100"><i class="bi bi-cart px-2"></i>Add to Cart</button>
+              </div>
+              <div class="my-0">
+                <a href="#" class="btn btn-outline-secondary w-100"
+                  ><i class="bi bi-eye px-2"></i>Quict View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow py-2 mt-4 mb-3">
+              <div class="d-flex justify-content-between mt-1 mb-1">
+                <span class="bg-danger px-3 rounded text-white">Sale</span>
+                <span class="text-danger px-2"><i class="bi bi-code"></i>Compare</span>
+              </div>
+              <img src="images/laptop_edit.jpg" class="card-img-top rounded" alt="..." />
+              <div class="card-body">
+                <span class="card-text text-secondary">LG TV</span>
+                <p class="h6">Smart Television</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="text-primary px-3">$190.00</span>
+                <span class="text-warning px-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </span>
+              </div>
+              <div class="my-2">
+                <button class="btn btn-danger w-100"><i class="bi bi-cart px-2"></i>Add to Cart</button>
+              </div>
+              <div class="my-0">
+                <a href="#" class="btn btn-outline-secondary w-100"
+                  ><i class="bi bi-eye px-2"></i>Quict View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow py-2 mt-4 mb-3">
+              <div class="d-flex justify-content-between mt-1 mb-1">
+                <span class="bg-danger px-3 rounded text-white">Sale</span>
+                <span class="text-danger px-2"><i class="bi bi-code"></i>Compare</span>
+              </div>
+              <img src="images/penbox_edit.jpg" class="card-img-top rounded" alt="..." />
+              <div class="card-body">
+                <span class="card-text text-secondary">Headphone</span>
+                <p class="h6">Wirless Blutooth Headphone</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="text-primary px-3">$190.00</span>
+                <span class="text-warning px-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                </span>
+              </div>
+              <div class="my-2">
+                <button class="btn btn-danger w-100"><i class="bi bi-cart px-2"></i>Add to Cart</button>
+              </div>
+              <div class="my-0">
+                <a href="#" class="btn btn-outline-secondary w-100"
+                  ><i class="bi bi-eye px-2"></i>Quict View</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================
+      Trending product  section end 
+      ==========================-->
+
+    <!--============================
+       More about us  section start 
+      ==========================-->
+    <section class="container my-5 ">
+      <p class="h4 text-center mb-5">More About us</p>
+      <div class="row">
+        <div class="col-md-7 me-auto">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Our Service
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                  collapse plugin adds the appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing and hiding via CSS
+                  transitions. You can modify any of this with custom CSS or overriding our default variables.
+                  It's also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Our Rules
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                  the collapse plugin adds the appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing and hiding via CSS
+                  transitions. You can modify any of this with custom CSS or overriding our default variables.
+                  It's also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Our History
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                  collapse plugin adds the appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing and hiding via CSS
+                  transitions. You can modify any of this with custom CSS or overriding our default variables.
+                  It's also worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- button section -->
+
+          <!-- offcanvas section start -->
+          <button
+            class="btn btn-outline-danger my-5 w-100"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            Click For More Details
+          </button>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">More Menu</h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, tempora molestiae. Excepturi
+                iusto natus id, labore veritatis velit molestias cum necessitatibus totam! Alias odit beatae
+                quas dolorum, explicabo illo ipsum perspiciatis libero architecto! Assumenda optio dolorum id,
+                sapiente, maxime nihil beatae cum dicta suscipit aut rerum inventore tenetur et impedit?
+              </div>
+              <div class="dropdown mt-3">
+                <button
+                  class="btn btn-danger w-50 dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-bs-toggle="dropdown"
+                >
+                  Open Menu
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">Product</a></li>
+                  <li><a class="dropdown-item" href="#">Shop</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- offcanvas section end -->
+        </div>
+        <div class="col-md-4 text-center bg-white">
+          <img class="img-fluid rounded" src="images/about_us_edit.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--============================
+       More about us  section end 
+      ==========================-->
+
+    <!--==============================
+        Shop by brand  section start 
+      ==========================-->
+    <section class="container">
+      <div class="brand mb-5">
+        <p class="h4 text-left">Shop by brand</p>
+      </div>
+      <div class="row my-5 bg-white">
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/oneplus_logo.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/tencent_logo.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/apple_logo1.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/microsoft_logo1.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/lenevo_logo1.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/huawei_logo1.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/nexus_logo1.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/google_logo1.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/firefox_logo1.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/tesler_logo1.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/brave_logo1.png" alt="oneplus" />
+        </div>
+        <div class="col-md-2 border border-1 text-center">
+          <img class="img-fluid" src="images/facebook_logo1.png" alt="oneplus" />
+        </div>
+      </div>
+    </section>
+    <!--=============================
+        Shop by brand  section end
+      ==========================-->
+
+    <!--============================
+        Top selling section start
+      ==========================-->
+    <section class="container">
+      <div class="top_selling_intro mb-5">
+        <p class="h4">Top Selling Product</p>
+      </div>
+      <div class="row justify-content-between">
+        <div
+          class="col-md-5 d-flex align-item-center justify-content-around my-4 bg-white px-3 py-3 shadow rounded"
+        >
+          <div class="col-md-5 mt-auto mb-auto">
+            <img class="img-fluid rounded" src="images/laptop_4_edit.png" alt="" />
+          </div>
+          <div class="col-5">
+            <p class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </p>
+            <div class="describtion">
+              <p>senmei ipsum dolar eiusmod dolor officia do nisi</p>
+              <p>
+                <span class="text-secondary me-3"
+                  ><del><b>$25.74</b></del></span
+                >
+                <span class="text-danger"><b>$28.80</b></span>
+              </p>
+              <button class="btn btn-danger">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-5 d-flex align-item-center justify-content-around my-4 py-3 px-3 bg-white shadow rounded"
+        >
+          <div class="col-md-5 text-cente mt-auto mb-auto">
+            <img class="img-fluid rounded" src="images/mobile.jpeg" alt="" />
+          </div>
+          <div class="col-5">
+            <p class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </p>
+            <div class="describtion">
+              <p>Canopoly duis voluptate dolor sunt sit adipisicing in</p>
+              <p>
+                <span class="text-secondary me-3"
+                  ><del><b>$40.74</b></del></span
+                >
+                <span class="text-danger"><b>$10.00</b></span>
+              </p>
+              <button class="btn btn-danger">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-5 d-flex align-item-center justify-content-around mb-5 px-3 py-3 bg-white shadow rounded"
+        >
+          <div class="col-md-5 mt-auto mb-auto">
+            <img class="img-fluid rounded" src="images/fan.jpeg" alt="" />
+          </div>
+          <div class="col-5">
+            <p class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </p>
+            <div class="describtion">
+              <p>Unisure aliqua repreh ex cupt qui elit officia</p>
+              <p>
+                <span class="text-secondary me-3"
+                  ><del><b>$36.80</b></del></span
+                >
+                <span class="text-danger"><b>$17.43</b></span>
+              </p>
+              <button class="btn btn-danger">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-5 d-flex align-item-center justify-content-around mb-5 px-3 py-3 bg-white shadow rounded"
+        >
+          <div class="col-md-5 mt-auto mb-auto">
+            <img class="img-fluid rounded" src="images/ac.jpeg" alt="" />
+          </div>
+          <div class="col-5">
+            <p class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </p>
+            <div class="describtion">
+              <p>senmei ipsum dolar eiusmod dolor officia do nisi</p>
+              <p>
+                <span class="text-secondary me-3"
+                  ><del><b>$25.74</b></del></span
+                >
+                <span class="text-danger"><b>$28.80</b></span>
+              </p>
+              <button class="btn btn-danger">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================
+        Top selling section end
+      ==========================-->
+
+    <!--=============================
+       Contact banner section start 
+      =========================-->
+    <section class="container my-5">
+      <a href="https://join.skype.com/invite/xgWET1BTWCoY" target="_blank">
+        <img class="img-fluid w-100 shadow rounded" src="images/contact_bannerjpeg.jpeg" alt="banner"
+      /></a>
+    </section>
+    <!--===========================
+       Contact banner section end
+      ========================-->
+
+    <!--================================
+       Order our products section start
+      ==============================-->
+    <section class="container">
+      <div class="order_title text-center my-5">
+        <p class="h3">Order Our Product</p>
+      </div>
+      <div class="row bg-light mt-5">
+        <!-- form section -->
+        <div class="col-md-6 col-sm-12">
+          <div class="top_input d-flex justify-content-between">
+            <div class="col-5">
+              <div class="form_top">
+                <label for="name" class="form-label">Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Enter Your Full Name" />
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="form_side">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" id="email" type="email" placeholder="Enter Your Email" />
+              </div>
+            </div>
+          </div>
+          <div class="full_form my-3">
+            <label for="Address" class="form-label">Shipping Address</label>
+            <input class="form-control" id="Address" type="text" placeholder="Street Address" />
+            <input class="form-control mt-3" type="text" placeholder="Street Address Line 2" />
+          </div>
+          <div class="devided_form d-flex justify-content-between">
+            <div class="col-5">
+              <div class="form_top">
+                <input class="form-control" type="text" placeholder="City Name" />
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="form_side">
+                <input class="form-control" type="text" placeholder="Region" />
+              </div>
+            </div>
+          </div>
+          <div class="devided_form d-flex justify-content-between mt-4">
+            <div class="col-5">
+              <div class="form_top">
+                <input class="form-control" type="text" placeholder="Postal / Zip Code" />
+              </div>
+            </div>
+            <div class="col-5">
+              <select class="form-select">
+                <option selected>Your Country</option>
+                <option value="Afganistan">Afganistan</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="England">England</option>
+                <option value="Soudi Arabia">Soudi Arabia</option>
+                <option value="Australia">Australia</option>
+                <option value="Singapore">Singapore</option>
+              </select>
+            </div>
+          </div>
+          <!-- form section -->
+
+          <!-- text area section -->
+          <div class="text_area">
+            <label class="form-label mt-3 mb-2" for="textArea">Write Your Message</label>
+            <textarea
+              class="text-area border border-2 outline-secondary w-100"
+              name="textArea"
+              id="textArea"
+              rows="4"
+            ></textarea>
+          </div>
+          <!-- text area section -->
+          <!-- button -->
+          <button class="btn btn-danger w-100 my-4">Submit</button>
+        </div>
+        <div class="col-md-6 text-center mt-auto mb-auto">
+          <!-- image section -->
+          <img class="img-fluid rounded" src="images/contact_us_edit.png" alt="image" />
+          <!-- image section -->
+        </div>
+        <!-- button submit -->
+      </div>
+    </section>
+    <!--=================================
+        Order our products section start
+      ==============================-->
+
+    <!--=====================
+        Footer section start
+      ==================-->
+    <section class="container">
+      <div class="footer_title text-center text-danger mt-5 mb-4">
+        <p class="h3"><b>Shop-<span class="text-warning">X</b></span></p>
+      </div>
+      <hr class="border border-1 border-danger">
+      <!-- footer items -->
+      <div class="row">
+        <div class="col-md-3 text-dark">
+          <p class="h5 mb-4"><b>About Us</b></p>
+          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, earum.</span>
+        </div>
+        <div class="col-md-3 text-dark">
+          <p class="h5 mb-4"><b>Feature</b></p>
+            <p><a href="#" class="text-decoration-none">About Us</a></p>
+            <p><a href="#" class="text-decoration-none">Best Products</a></p>
+            <p><a href="#" class="text-decoration-none">Terms & Condition</a></p>
+        </div>
+        <div class="col-md-3 text-dark">
+          <p class="h5 mb-4"><b>General Links</b></p>
+            <p><a href="#" class="text-decoration-none">Blog</a></p>
+            <p><a href="#" class="text-decoration-none">Tracking Orders</a></p>
+            <p><a href="#" class="text-decoration-none">Become Seller</a></p>
+        </div>
+        <div class="col-md-3 text-dark">
+          <p class="h5 mb-4"><b>Helpful</b></p>
+            <p><a href="#" class="text-decoration-none">Flash Sale</a></p>
+            <p><a href="#" class="text-decoration-none">FAQ</a></p>
+            <p><a href="#" class="text-decoration-none">Support</a></p>
+        </div>
+      </div>
+      <!-- footer items -->
+      <hr class="border border-1 border-success">
+      <!-- copyright -->
+      <p class="mt-3 mb-5 text-center text-dark">&copy;copyright || 2023</p>
+    </section>
+    <!--=====================
+        Footer section end
+      ==================-->
+    <!-- script file -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
